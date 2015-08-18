@@ -1,0 +1,36 @@
+C:\Users\jfischer\Downloads\tcpchat\TCP Chat\SGSserverTCP\Server\bin\Debug\Server.exe
+C:\Users\jfischer\Downloads\tcpchat\TCP Chat\SGSserverTCP\Server\bin\Debug\Server.pdb
+C:\Users\jfischer\Downloads\tcpchat\TCP Chat\SGSserverTCP\Server\obj\Debug\Server.SGSserverForm.resources
+C:\Users\jfischer\Downloads\tcpchat\TCP Chat\SGSserverTCP\Server\obj\Debug\Server.Properties.Resources.resources
+C:\Users\jfischer\Downloads\tcpchat\TCP Chat\SGSserverTCP\Server\obj\Debug\SGSserverTCP.csproj.GenerateResource.Cache
+C:\Users\jfischer\Downloads\tcpchat\TCP Chat\SGSserverTCP\Server\obj\Debug\Server.exe
+C:\Users\jfischer\Downloads\tcpchat\TCP Chat\SGSserverTCP\Server\obj\Debug\Server.pdb
+C:\Users\jfischer\Downloads\tcpchat\TCP Chat\SGSserverTCP\Server\obj\Debug\SGSserverTCP.csprojResolveAssemblyReference.cache
+C:\Users\jfischer\Downloads\tcpchat\TCP Chat\SGSserverTCP\Server\bin\Debug\Server.exe.config
+C:\Users\jfischer\Downloads\tcpchat\TCP Chat\SGSserverTCP\Server\bin\Debug\BusinessObjectHelper.dll
+C:\Users\jfischer\Downloads\tcpchat\TCP Chat\SGSserverTCP\Server\bin\Debug\DatabaseHelper.dll
+C:\Users\jfischer\Downloads\tcpchat\TCP Chat\SGSserverTCP\Server\bin\Debug\EmailHelper.dll
+C:\Users\jfischer\Downloads\tcpchat\TCP Chat\SGSserverTCP\Server\bin\Debug\ConfigurationHelper.dll
+C:\Users\jfischer\Downloads\tcpchat\TCP Chat\SGSserverTCP\Server\bin\Debug\BusinessObjectHelper.pdb
+C:\Users\jfischer\Downloads\tcpchat\TCP Chat\SGSserverTCP\Server\bin\Debug\DatabaseHelper.pdb
+C:\Users\jfischer\Downloads\tcpchat\TCP Chat\SGSserverTCP\Server\bin\Debug\EmailHelper.pdb
+C:\Users\jfischer\Downloads\tcpchat\TCP Chat\SGSserverTCP\Server\bin\Debug\EmailHelper.xml
+C:\Users\jfischer\Downloads\tcpchat\TCP Chat\SGSserverTCP\Server\bin\Debug\ConfigurationHelper.pdb
+C:\Users\Ben\Documents\Visual Studio 2013\Projects\tcpchat\TCP Chat\SGSserverTCP\Server\bin\Debug\Server.exe.config
+C:\Users\Ben\Documents\Visual Studio 2013\Projects\tcpchat\TCP Chat\SGSserverTCP\Server\bin\Debug\Server.exe
+C:\Users\Ben\Documents\Visual Studio 2013\Projects\tcpchat\TCP Chat\SGSserverTCP\Server\bin\Debug\Server.pdb
+C:\Users\Ben\Documents\Visual Studio 2013\Projects\tcpchat\TCP Chat\SGSserverTCP\Server\bin\Debug\BusinessObjectHelper.dll
+C:\Users\Ben\Documents\Visual Studio 2013\Projects\tcpchat\TCP Chat\SGSserverTCP\Server\bin\Debug\DatabaseHelper.dll
+C:\Users\Ben\Documents\Visual Studio 2013\Projects\tcpchat\TCP Chat\SGSserverTCP\Server\bin\Debug\EmailHelper.dll
+C:\Users\Ben\Documents\Visual Studio 2013\Projects\tcpchat\TCP Chat\SGSserverTCP\Server\bin\Debug\ConfigurationHelper.dll
+C:\Users\Ben\Documents\Visual Studio 2013\Projects\tcpchat\TCP Chat\SGSserverTCP\Server\bin\Debug\BusinessObjectHelper.pdb
+C:\Users\Ben\Documents\Visual Studio 2013\Projects\tcpchat\TCP Chat\SGSserverTCP\Server\bin\Debug\DatabaseHelper.pdb
+C:\Users\Ben\Documents\Visual Studio 2013\Projects\tcpchat\TCP Chat\SGSserverTCP\Server\bin\Debug\EmailHelper.pdb
+C:\Users\Ben\Documents\Visual Studio 2013\Projects\tcpchat\TCP Chat\SGSserverTCP\Server\bin\Debug\EmailHelper.xml
+C:\Users\Ben\Documents\Visual Studio 2013\Projects\tcpchat\TCP Chat\SGSserverTCP\Server\bin\Debug\ConfigurationHelper.pdb
+C:\Users\Ben\Documents\Visual Studio 2013\Projects\tcpchat\TCP Chat\SGSserverTCP\Server\obj\Debug\Server.SGSserverForm.resources
+C:\Users\Ben\Documents\Visual Studio 2013\Projects\tcpchat\TCP Chat\SGSserverTCP\Server\obj\Debug\Server.Properties.Resources.resources
+C:\Users\Ben\Documents\Visual Studio 2013\Projects\tcpchat\TCP Chat\SGSserverTCP\Server\obj\Debug\SGSserverTCP.csproj.GenerateResource.Cache
+C:\Users\Ben\Documents\Visual Studio 2013\Projects\tcpchat\TCP Chat\SGSserverTCP\Server\obj\Debug\Server.exe
+C:\Users\Ben\Documents\Visual Studio 2013\Projects\tcpchat\TCP Chat\SGSserverTCP\Server\obj\Debug\Server.pdb
+C:\Users\Ben\Documents\Visual Studio 2013\Projects\tcpchat\TCP Chat\SGSserverTCP\Server\obj\Debug\SGSserverTCP.csprojResolveAssemblyReference.cache

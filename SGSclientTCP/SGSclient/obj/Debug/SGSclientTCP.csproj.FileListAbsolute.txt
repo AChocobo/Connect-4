@@ -1,0 +1,19 @@
+C:\Users\jfischer\Downloads\tcpchat\TCP Chat\SGSclientTCP\SGSclient\bin\Debug\SGSclient.exe
+C:\Users\jfischer\Downloads\tcpchat\TCP Chat\SGSclientTCP\SGSclient\bin\Debug\SGSclient.pdb
+C:\Users\jfischer\Downloads\tcpchat\TCP Chat\SGSclientTCP\SGSclient\obj\Debug\SGSclient.SGSClient.resources
+C:\Users\jfischer\Downloads\tcpchat\TCP Chat\SGSclientTCP\SGSclient\obj\Debug\SGSclient.LoginForm.resources
+C:\Users\jfischer\Downloads\tcpchat\TCP Chat\SGSclientTCP\SGSclient\obj\Debug\SGSclient.Properties.Resources.resources
+C:\Users\jfischer\Downloads\tcpchat\TCP Chat\SGSclientTCP\SGSclient\obj\Debug\SGSclientTCP.csproj.GenerateResource.Cache
+C:\Users\jfischer\Downloads\tcpchat\TCP Chat\SGSclientTCP\SGSclient\obj\Debug\SGSclient.exe
+C:\Users\jfischer\Downloads\tcpchat\TCP Chat\SGSclientTCP\SGSclient\obj\Debug\SGSclient.pdb
+C:\Users\jfischer\Downloads\tcpchat\TCP Chat\SGSclientTCP\SGSclient\obj\Debug\SGSclientTCP.csprojResolveAssemblyReference.cache
+C:\Users\bconley\Documents\Visual Studio 2010\Projects\tcpchat\TCP Chat\SGSclientTCP\SGSclient\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bconley\Documents\Visual Studio 2010\Projects\tcpchat\TCP Chat\SGSclientTCP\SGSclient\obj\Debug\SGSclient.SGSClient.resources
+C:\Users\bconley\Documents\Visual Studio 2010\Projects\tcpchat\TCP Chat\SGSclientTCP\SGSclient\obj\Debug\SGSclient.LoginForm.resources
+C:\Users\bconley\Documents\Visual Studio 2010\Projects\tcpchat\TCP Chat\SGSclientTCP\SGSclient\obj\Debug\SGSclient.Properties.Resources.resources
+C:\Users\bconley\Documents\Visual Studio 2010\Projects\tcpchat\TCP Chat\SGSclientTCP\SGSclient\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\bconley\Documents\Visual Studio 2010\Projects\tcpchat\TCP Chat\SGSclientTCP\SGSclient\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\bconley\Documents\Visual Studio 2010\Projects\tcpchat\TCP Chat\SGSclientTCP\SGSclient\bin\Debug\SGSclient.exe
+C:\Users\bconley\Documents\Visual Studio 2010\Projects\tcpchat\TCP Chat\SGSclientTCP\SGSclient\bin\Debug\SGSclient.pdb
+C:\Users\bconley\Documents\Visual Studio 2010\Projects\tcpchat\TCP Chat\SGSclientTCP\SGSclient\obj\Debug\SGSclient.exe
+C:\Users\bconley\Documents\Visual Studio 2010\Projects\tcpchat\TCP Chat\SGSclientTCP\SGSclient\obj\Debug\SGSclient.pdb

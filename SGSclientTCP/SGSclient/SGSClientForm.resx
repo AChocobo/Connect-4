@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnSend.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnSend.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 270</value>
+  </data>
+  <data name="btnSend.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
+  </data>
+  <data name="btnSend.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnSend.Text" xml:space="preserve">
+    <value>&amp;Send</value>
+  </data>
+  <data name="&gt;&gt;btnSend.Name" xml:space="preserve">
+    <value>btnSend</value>
+  </data>
+  <data name="&gt;&gt;btnSend.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSend.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnSend.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="txtChatBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="txtChatBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtChatBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="txtChatBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>363, 252</value>
+  </data>
+  <data name="txtChatBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtChatBox.Name" xml:space="preserve">
+    <value>txtChatBox</value>
+  </data>
+  <data name="&gt;&gt;txtChatBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtChatBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtChatBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtMessage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 270</value>
+  </data>
+  <data name="txtMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 20</value>
+  </data>
+  <data name="txtMessage.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtMessage.Name" xml:space="preserve">
+    <value>txtMessage</value>
+  </data>
+  <data name="&gt;&gt;txtMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtMessage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtMessage.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lstChatters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>382, 14</value>
+  </data>
+  <data name="lstChatters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 277</value>
+  </data>
+  <data name="lstChatters.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lstChatters.Name" xml:space="preserve">
+    <value>lstChatters</value>
+  </data>
+  <data name="&gt;&gt;lstChatters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstChatters.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lstChatters.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="shapeContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="shapeContainer1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <metadata name="lineShape15.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>514, 70, 0, 142</value>
+  </metadata>
+  <metadata name="lineShape15.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>514, 70</value>
+  </metadata>
+  <metadata name="lineShape15.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 142</value>
+  </metadata>
+  <data name="lineShape15.X1" type="System.Int32, mscorlib">
+    <value>514</value>
+  </data>
+  <data name="lineShape15.X2" type="System.Int32, mscorlib">
+    <value>514</value>
+  </data>
+  <data name="lineShape15.Y1" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="lineShape15.Y2" type="System.Int32, mscorlib">
+    <value>212</value>
+  </data>
+  <metadata name="lineShape14.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>751, 70, 0, 142</value>
+  </metadata>
+  <metadata name="lineShape14.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>751, 70</value>
+  </metadata>
+  <metadata name="lineShape14.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 142</value>
+  </metadata>
+  <data name="lineShape14.X1" type="System.Int32, mscorlib">
+    <value>751</value>
+  </data>
+  <data name="lineShape14.X2" type="System.Int32, mscorlib">
+    <value>751</value>
+  </data>
+  <data name="lineShape14.Y1" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="lineShape14.Y2" type="System.Int32, mscorlib">
+    <value>212</value>
+  </data>
+  <metadata name="lineShape13.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>515, 69, 235, 0</value>
+  </metadata>
+  <metadata name="lineShape13.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>515, 69</value>
+  </metadata>
+  <metadata name="lineShape13.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>235, 0</value>
+  </metadata>
+  <data name="lineShape13.X1" type="System.Int32, mscorlib">
+    <value>750</value>
+  </data>
+  <data name="lineShape13.X2" type="System.Int32, mscorlib">
+    <value>515</value>
+  </data>
+  <data name="lineShape13.Y1" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="lineShape13.Y2" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <metadata name="lineShape12.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>515, 213, 235, 0</value>
+  </metadata>
+  <metadata name="lineShape12.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>515, 213</value>
+  </metadata>
+  <metadata name="lineShape12.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>235, 0</value>
+  </metadata>
+  <data name="lineShape12.X1" type="System.Int32, mscorlib">
+    <value>750</value>
+  </data>
+  <data name="lineShape12.X2" type="System.Int32, mscorlib">
+    <value>515</value>
+  </data>
+  <data name="lineShape12.Y1" type="System.Int32, mscorlib">
+    <value>213</value>
+  </data>
+  <data name="lineShape12.Y2" type="System.Int32, mscorlib">
+    <value>213</value>
+  </data>
+  <metadata name="lineShape11.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>515, 189, 235, 0</value>
+  </metadata>
+  <metadata name="lineShape11.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>515, 189</value>
+  </metadata>
+  <metadata name="lineShape11.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>235, 0</value>
+  </metadata>
+  <data name="lineShape11.X1" type="System.Int32, mscorlib">
+    <value>750</value>
+  </data>
+  <data name="lineShape11.X2" type="System.Int32, mscorlib">
+    <value>515</value>
+  </data>
+  <data name="lineShape11.Y1" type="System.Int32, mscorlib">
+    <value>189</value>
+  </data>
+  <data name="lineShape11.Y2" type="System.Int32, mscorlib">
+    <value>189</value>
+  </data>
+  <metadata name="lineShape10.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>515, 165, 235, 0</value>
+  </metadata>
+  <metadata name="lineShape10.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>515, 165</value>
+  </metadata>
+  <metadata name="lineShape10.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>235, 0</value>
+  </metadata>
+  <data name="lineShape10.X1" type="System.Int32, mscorlib">
+    <value>750</value>
+  </data>
+  <data name="lineShape10.X2" type="System.Int32, mscorlib">
+    <value>515</value>
+  </data>
+  <data name="lineShape10.Y1" type="System.Int32, mscorlib">
+    <value>165</value>
+  </data>
+  <data name="lineShape10.Y2" type="System.Int32, mscorlib">
+    <value>165</value>
+  </data>
+  <metadata name="lineShape9.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>515, 141, 235, 0</value>
+  </metadata>
+  <metadata name="lineShape9.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>515, 141</value>
+  </metadata>
+  <metadata name="lineShape9.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>235, 0</value>
+  </metadata>
+  <data name="lineShape9.X1" type="System.Int32, mscorlib">
+    <value>750</value>
+  </data>
+  <data name="lineShape9.X2" type="System.Int32, mscorlib">
+    <value>515</value>
+  </data>
+  <data name="lineShape9.Y1" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="lineShape9.Y2" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <metadata name="lineShape8.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>515, 117, 235, 0</value>
+  </metadata>
+  <metadata name="lineShape8.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>515, 117</value>
+  </metadata>
+  <metadata name="lineShape8.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>235, 0</value>
+  </metadata>
+  <data name="lineShape8.X1" type="System.Int32, mscorlib">
+    <value>750</value>
+  </data>
+  <data name="lineShape8.X2" type="System.Int32, mscorlib">
+    <value>515</value>
+  </data>
+  <data name="lineShape8.Y1" type="System.Int32, mscorlib">
+    <value>117</value>
+  </data>
+  <data name="lineShape8.Y2" type="System.Int32, mscorlib">
+    <value>117</value>
+  </data>
+  <metadata name="lineShape7.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>515, 93, 235, 0</value>
+  </metadata>
+  <metadata name="lineShape7.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>515, 93</value>
+  </metadata>
+  <metadata name="lineShape7.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>235, 0</value>
+  </metadata>
+  <data name="lineShape7.X1" type="System.Int32, mscorlib">
+    <value>750</value>
+  </data>
+  <data name="lineShape7.X2" type="System.Int32, mscorlib">
+    <value>515</value>
+  </data>
+  <data name="lineShape7.Y1" type="System.Int32, mscorlib">
+    <value>93</value>
+  </data>
+  <data name="lineShape7.Y2" type="System.Int32, mscorlib">
+    <value>93</value>
+  </data>
+  <metadata name="lineShape6.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>718, 70, 0, 142</value>
+  </metadata>
+  <metadata name="lineShape6.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>718, 70</value>
+  </metadata>
+  <metadata name="lineShape6.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 142</value>
+  </metadata>
+  <data name="lineShape6.X1" type="System.Int32, mscorlib">
+    <value>718</value>
+  </data>
+  <data name="lineShape6.X2" type="System.Int32, mscorlib">
+    <value>718</value>
+  </data>
+  <data name="lineShape6.Y1" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="lineShape6.Y2" type="System.Int32, mscorlib">
+    <value>212</value>
+  </data>
+  <metadata name="lineShape5.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>684, 70, 0, 142</value>
+  </metadata>
+  <metadata name="lineShape5.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>684, 70</value>
+  </metadata>
+  <metadata name="lineShape5.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 142</value>
+  </metadata>
+  <data name="lineShape5.X1" type="System.Int32, mscorlib">
+    <value>684</value>
+  </data>
+  <data name="lineShape5.X2" type="System.Int32, mscorlib">
+    <value>684</value>
+  </data>
+  <data name="lineShape5.Y1" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="lineShape5.Y2" type="System.Int32, mscorlib">
+    <value>212</value>
+  </data>
+  <metadata name="lineShape4.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>650, 70, 0, 142</value>
+  </metadata>
+  <metadata name="lineShape4.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>650, 70</value>
+  </metadata>
+  <metadata name="lineShape4.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 142</value>
+  </metadata>
+  <data name="lineShape4.X1" type="System.Int32, mscorlib">
+    <value>650</value>
+  </data>
+  <data name="lineShape4.X2" type="System.Int32, mscorlib">
+    <value>650</value>
+  </data>
+  <data name="lineShape4.Y1" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="lineShape4.Y2" type="System.Int32, mscorlib">
+    <value>212</value>
+  </data>
+  <metadata name="lineShape3.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>616, 70, 0, 142</value>
+  </metadata>
+  <metadata name="lineShape3.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>616, 70</value>
+  </metadata>
+  <metadata name="lineShape3.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 142</value>
+  </metadata>
+  <data name="lineShape3.X1" type="System.Int32, mscorlib">
+    <value>616</value>
+  </data>
+  <data name="lineShape3.X2" type="System.Int32, mscorlib">
+    <value>616</value>
+  </data>
+  <data name="lineShape3.Y1" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="lineShape3.Y2" type="System.Int32, mscorlib">
+    <value>212</value>
+  </data>
+  <metadata name="lineShape2.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>582, 70, 0, 142</value>
+  </metadata>
+  <metadata name="lineShape2.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>582, 70</value>
+  </metadata>
+  <metadata name="lineShape2.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 142</value>
+  </metadata>
+  <data name="lineShape2.X1" type="System.Int32, mscorlib">
+    <value>582</value>
+  </data>
+  <data name="lineShape2.X2" type="System.Int32, mscorlib">
+    <value>582</value>
+  </data>
+  <data name="lineShape2.Y1" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="lineShape2.Y2" type="System.Int32, mscorlib">
+    <value>212</value>
+  </data>
+  <metadata name="lineShape1.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>548, 70, 0, 142</value>
+  </metadata>
+  <metadata name="lineShape1.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>548, 70</value>
+  </metadata>
+  <metadata name="lineShape1.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 142</value>
+  </metadata>
+  <data name="lineShape1.X1" type="System.Int32, mscorlib">
+    <value>548</value>
+  </data>
+  <data name="lineShape1.X2" type="System.Int32, mscorlib">
+    <value>548</value>
+  </data>
+  <data name="lineShape1.Y1" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="lineShape1.Y2" type="System.Int32, mscorlib">
+    <value>212</value>
+  </data>
+  <data name="shapeContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>762, 312</value>
+  </data>
+  <data name="shapeContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;shapeContainer1.Name" xml:space="preserve">
+    <value>shapeContainer1</value>
+  </data>
+  <data name="&gt;&gt;shapeContainer1.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.ShapeContainer, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;shapeContainer1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;shapeContainer1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btnNewGame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>515, 267</value>
+  </data>
+  <data name="btnNewGame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnNewGame.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="btnNewGame.Text" xml:space="preserve">
+    <value>New Game</value>
+  </data>
+  <data name="&gt;&gt;btnNewGame.Name" xml:space="preserve">
+    <value>btnNewGame</value>
+  </data>
+  <data name="&gt;&gt;btnNewGame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnNewGame.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnNewGame.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>515, 44</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 23</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>548, 44</value>
+  </data>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 23</value>
+  </data>
+  <data name="button3.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;button3.Name" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="button4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>582, 44</value>
+  </data>
+  <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 23</value>
+  </data>
+  <data name="button4.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="button4.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;button4.Name" xml:space="preserve">
+    <value>button4</value>
+  </data>
+  <data name="&gt;&gt;button4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="button5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>616, 44</value>
+  </data>
+  <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 23</value>
+  </data>
+  <data name="button5.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="button5.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;button5.Name" xml:space="preserve">
+    <value>button5</value>
+  </data>
+  <data name="&gt;&gt;button5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="button6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>650, 44</value>
+  </data>
+  <data name="button6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 23</value>
+  </data>
+  <data name="button6.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="button6.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;button6.Name" xml:space="preserve">
+    <value>button6</value>
+  </data>
+  <data name="&gt;&gt;button6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="button7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>685, 44</value>
+  </data>
+  <data name="button7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 23</value>
+  </data>
+  <data name="button7.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="button7.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;button7.Name" xml:space="preserve">
+    <value>button7</value>
+  </data>
+  <data name="&gt;&gt;button7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>718, 44</value>
+  </data>
+  <data name="button8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 23</value>
+  </data>
+  <data name="button8.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="button8.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;button8.Name" xml:space="preserve">
+    <value>button8</value>
+  </data>
+  <data name="&gt;&gt;button8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>762, 312</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;lineShape15.Name" xml:space="preserve">
+    <value>lineShape15</value>
+  </data>
+  <data name="&gt;&gt;lineShape15.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.LineShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;lineShape14.Name" xml:space="preserve">
+    <value>lineShape14</value>
+  </data>
+  <data name="&gt;&gt;lineShape14.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.LineShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;lineShape13.Name" xml:space="preserve">
+    <value>lineShape13</value>
+  </data>
+  <data name="&gt;&gt;lineShape13.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.LineShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;lineShape12.Name" xml:space="preserve">
+    <value>lineShape12</value>
+  </data>
+  <data name="&gt;&gt;lineShape12.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.LineShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;lineShape11.Name" xml:space="preserve">
+    <value>lineShape11</value>
+  </data>
+  <data name="&gt;&gt;lineShape11.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.LineShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;lineShape10.Name" xml:space="preserve">
+    <value>lineShape10</value>
+  </data>
+  <data name="&gt;&gt;lineShape10.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.LineShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;lineShape9.Name" xml:space="preserve">
+    <value>lineShape9</value>
+  </data>
+  <data name="&gt;&gt;lineShape9.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.LineShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;lineShape8.Name" xml:space="preserve">
+    <value>lineShape8</value>
+  </data>
+  <data name="&gt;&gt;lineShape8.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.LineShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;lineShape7.Name" xml:space="preserve">
+    <value>lineShape7</value>
+  </data>
+  <data name="&gt;&gt;lineShape7.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.LineShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;lineShape6.Name" xml:space="preserve">
+    <value>lineShape6</value>
+  </data>
+  <data name="&gt;&gt;lineShape6.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.LineShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;lineShape5.Name" xml:space="preserve">
+    <value>lineShape5</value>
+  </data>
+  <data name="&gt;&gt;lineShape5.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.LineShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;lineShape4.Name" xml:space="preserve">
+    <value>lineShape4</value>
+  </data>
+  <data name="&gt;&gt;lineShape4.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.LineShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;lineShape3.Name" xml:space="preserve">
+    <value>lineShape3</value>
+  </data>
+  <data name="&gt;&gt;lineShape3.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.LineShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;lineShape2.Name" xml:space="preserve">
+    <value>lineShape2</value>
+  </data>
+  <data name="&gt;&gt;lineShape2.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.LineShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;lineShape1.Name" xml:space="preserve">
+    <value>lineShape1</value>
+  </data>
+  <data name="&gt;&gt;lineShape1.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.LineShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SGSClient</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
